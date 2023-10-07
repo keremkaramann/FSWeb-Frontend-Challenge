@@ -1,7 +1,14 @@
 import "./App.css";
+import Header from "./components/Header";
+import LanguageSection from "./components/LanguageSection";
 
 function App() {
-  return <div className="bg-pink-400">asdasdas</div>;
+  return (
+    <div>
+      <Header />
+      <LanguageSection />
+    </div>
+  );
 }
 
 export default App;

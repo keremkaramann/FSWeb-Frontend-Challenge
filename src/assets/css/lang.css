@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&family=Playfair+Display:wght@400;500&display=swap");
+.java-logo {
+  width: 120px;
+}
+.eclipse-gri {
+  margin-top: -11%;
+}
+.sec2-container {
+  max-width: 1107px;
+  width: 100%;
+  margin: 0 70%;
+}
+.section-container-2 {
+  font-family: "Inter", sans-serif;
+}
+@media (max-width: 767px) {
+  .eclipse-gri {
+    width: 15%;
+    margin-top: -13%;
+  }
+}
