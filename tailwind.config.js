@@ -7,6 +7,12 @@ export default {
         "custom-grey": "#F4F4F4",
         "pink-text": "#ea2678",
         "custom-grey-text": "#777777",
+        "darkest-bg": "#2A262B",
+        "lightest-bg": "#484148",
+        "box-darkMode": "#525252",
+        "slider-bg": "#2D3235",
+        "slider-bg2": "#495351",
+        "baby-blue": "#DDEEFE",
       },
       fontSize: {
         "header-xxl": "2.8rem",

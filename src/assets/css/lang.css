@@ -2,13 +2,12 @@
 .java-logo {
   width: 120px;
 }
-.eclipse-gri {
-  margin-top: -11%;
+.section-container-2 {
+  position: relative;
 }
-.sec2-container {
-  max-width: 1107px;
-  width: 100%;
-  margin: 0 70%;
+.sec22-container {
+  position: absolute;
+  top: -32%;
 }
 .section-container-2 {
   font-family: "Inter", sans-serif;
@@ -17,5 +16,8 @@
   .eclipse-gri {
     width: 15%;
     margin-top: -13%;
+  }
+  .gri-logo {
+    width: 15%;
   }
 }
