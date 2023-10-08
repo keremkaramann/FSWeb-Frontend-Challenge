@@ -1,7 +1,7 @@
 import { useContext } from "react";
+import { DarkMode } from "../context/mycontext";
 import "../assets/css/profile.css";
 import redCir from "../assets/symbols/Ellipse 12.png";
-import { DarkMode } from "../context/mycontext";
 const ProfileSection = () => {
   const { toggleDarkMode } = useContext(DarkMode);
   return (

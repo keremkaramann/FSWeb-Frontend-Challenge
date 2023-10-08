@@ -1,7 +1,7 @@
 import "../assets/css/header.css";
-import { useState } from "react";
 import { useContext } from "react";
 import { DarkMode } from "../context/mycontext";
+//icons and pictures
 import { ImLinkedin2 } from "react-icons/im";
 import { AiFillGithub } from "react-icons/ai";
 import halfEclipse from "../assets/symbols/Ellipse 10.png";
