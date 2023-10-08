@@ -50,4 +50,7 @@
     margin-top: -5px;
     width: 10%;
   }
+  .profile2-box-right {
+    width: 80% !important;
+  }
 }

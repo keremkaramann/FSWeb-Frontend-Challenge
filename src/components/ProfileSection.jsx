@@ -24,8 +24,8 @@ const ProfileSection = () => {
         <div
           className={
             toggleDarkMode
-              ? "profile-box p-8 leading-10 pr-32 xs:p-6 xs:pr-16 xs:ml-2 bg-white"
-              : "profile-box p-8 leading-10 pr-32 xs:p-6 xs:pr-16 xs:ml-2 bg-box-darkMode"
+              ? "profile-box p-8 leading-10 pr-32 xs:p-6 xs:pr-12 xs:ml-2 bg-white"
+              : "profile-box p-8 leading-10 pr-32 xs:p-6 xs:pr-12 xs:ml-2 bg-box-darkMode"
           }
         >
           <h4 className="text-pink-text font-normal mb-5">Basic Information</h4>
@@ -44,7 +44,7 @@ const ProfileSection = () => {
             </div>
           </div>
         </div>
-        <div className="p-8 w-1/3 xs:w-1/2">
+        <div className="p-8 w-2/5 profile2-box-right">
           <div className={toggleDarkMode ? "text-black" : "text-white"}>
             <h4 className="h4-second-box mb-4">About me</h4>
           </div>
@@ -55,11 +55,11 @@ const ProfileSection = () => {
                 : "text-white leading-7 box-2-p"
             }
           >
-            <p className="mb-8 font-light">
+            <p className="mb-8 font-light ">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam
               aut, odit laborum aliquam voluptatum nisi mollitia.
             </p>
-            <p className="font-light">
+            <p className="font-light ">
               Mnima accusamus ratione soluta aperiam sit voluptate? Dicta quod
               deserunt quam temporibus cumque magnam!
             </p>
