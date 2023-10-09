@@ -1,6 +1,7 @@
 import "../assets/css/header.css";
 import { useContext } from "react";
 import { DarkMode } from "../context/mycontext";
+
 //icons and pictures
 import { ImLinkedin2 } from "react-icons/im";
 import { AiFillGithub } from "react-icons/ai";
@@ -9,21 +10,23 @@ import sakura from "../assets/symbols/sakura.jpg";
 import rectangleRed from "../assets/symbols/Rectangle 18.png";
 
 const Header = () => {
-  const { toggleDarkMode, handleNight } = useContext(DarkMode);
+  const { toggleDarkMode, handleNight, t, handleLang, i18n } =
+    useContext(DarkMode);
+  const boolLang = i18n.language === "en";
 
   return (
     <header
       className={
         toggleDarkMode
           ? "bg-custom-grey transition duration-500 ease-in-out"
-          : "bg-darkest-bg pb-16 transition duration-500 ease-in-out"
+          : "bg-darkest-bg sm:pb-16 xs:pb-3 transition duration-500 ease-in-out"
       }
     >
       <div className="header-container">
         <div className="eclipse-cont">
           <img src={halfEclipse} alt="halfEclipse" />
         </div>
-        <div className="flex justify-end gap-2 items-center mr-2">
+        <div className="flex justify-end gap-2 items-center sm:mr-20 xs:mr-10">
           <div>
             <label className="switch">
               <input
@@ -46,10 +49,15 @@ const Header = () => {
             </p>
           </div>
           <div className="flex">
-            <p className="text-pink-text text-sm cursor-pointer span-cs-headers">
-              TÜRKÇE'
+            <p
+              className="text-pink-text text-sm cursor-pointer span-cs-headers"
+              onClick={() => handleLang(boolLang ? "tr" : "en")}
+            >
+              {boolLang ? "TÜRKÇE" : "ENGLISH"}
             </p>
-            <span className="text-custom-grey-text text-sm ">YE GEÇ</span>
+            {boolLang ? (
+              <span className="text-custom-grey-text text-sm">'YE GEÇ</span>
+            ) : null}
           </div>
         </div>
       </div>
@@ -62,7 +70,7 @@ const Header = () => {
                 : "text-3xl mb-3 text-white"
             }
           >
-            Hi! 👋
+            {t("hi")} 👋
           </h3>
           <h1
             className={
@@ -71,8 +79,7 @@ const Header = () => {
                 : "text-white md:text-header-xl lg:text-header-xxl cs-header-h1 font-medium"
             }
           >
-            I’m Kerem. I’m a full-stack developer. I can craft solid and
-            scalable frontend products. Let’s meet!
+            {t("welcome")}
           </h1>
           <div
             className={
@@ -88,28 +95,51 @@ const Header = () => {
               <AiFillGithub />
             </a>
           </div>
-          <div className="mt-6">
-            <p
-              className={
-                toggleDarkMode
-                  ? "font-light text-black"
-                  : "font-light text-white"
-              }
-            >
-              Currently <span className="text-[#AF0C48]">Freelancing</span> for{" "}
-              <span className="text-[#AF0C48]">UX, UI, &amp; Web Design </span>
-              Project . Invite me to join your team -&gt;{" "}
-              <a className="text-[#AF0C48]" href="">
-                keremkaraman91@gmail.com
-              </a>
-            </p>
-          </div>
+          {boolLang ? (
+            <div className="mt-6">
+              <p
+                className={
+                  toggleDarkMode
+                    ? "font-light text-black"
+                    : "font-light text-white"
+                }
+              >
+                Currently <span className="text-[#AF0C48]">Freelancing</span>{" "}
+                for{" "}
+                <span className="text-[#AF0C48]">
+                  UX, UI, &amp; Web Design{" "}
+                </span>
+                Project . Invite me to join your team -&gt;{" "}
+                <a className="text-[#AF0C48]" href="">
+                  keremkaraman91@gmail.com
+                </a>
+              </p>
+            </div>
+          ) : (
+            <div className="mt-6">
+              <p
+                className={
+                  toggleDarkMode
+                    ? "font-light text-black"
+                    : "font-light text-white"
+                }
+              >
+                Şu anda{" "}
+                <span className="text-[#AF0C48]">UX, UI &amp; Web Tasarım</span>{" "}
+                Projesi için serbest çalışıyorum. Beni takımınıza katılmaya
+                davet edin. -&gt;{" "}
+                <a className="text-[#AF0C48]" href="">
+                  keremkaraman91@gmail.com
+                </a>
+              </p>
+            </div>
+          )}
         </div>
         <div className="pink-shadow mt-12">
           <img src={sakura} alt="sakura" className="rounded-3xl" />
         </div>
       </div>
-      <div className="flex justify-end pb-16">
+      <div className="flex justify-end md:pb-16 xs:pb-10">
         <img
           src={rectangleRed}
           alt="rectangleRed"

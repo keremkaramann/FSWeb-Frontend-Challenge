@@ -1,0 +1,21 @@
+{
+  "hi": "Hi",
+  "welcome": "I’m Kerem. I’m a full-stack developer. I can craft solid and scalable frontend products. Let’s meet!",
+  "skills": "Skills",
+  "profile": "Profile",
+  "birth": "Date of Birth",
+  "residence": "City of Residence",
+  "education": "Education",
+  "role": "Preferred Role",
+  "uni": "University",
+  "about": "About me",
+  "basic": "Basic Information",
+  "projects": "Projects",
+  "project": "PROJECT",
+  "pizza": "A website (SPA) designed to bring food to hungry programmers at the computer.",
+  "git": "View on GitHub",
+  "app": "Go to App",
+  "lets": "Let’s work together on",
+  "letsbr": "your next product.",
+  "blog": "Personal Blog"
+}

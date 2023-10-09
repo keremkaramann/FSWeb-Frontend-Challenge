@@ -1,0 +1,21 @@
+{
+  "hi": "Merhaba",
+  "welcome": "Ben Kerem. Full-Stack geliştiriciyim. Sağlam ve ölçeklenebilir ön yüz ürünleri oluşturabilirim. Tanışalım!",
+  "skills": "Yetenekler",
+  "profile": "Profil",
+  "birth": "Doğum Tarihi",
+  "residence": "İkamet Şehri",
+  "education": "Eğitim Durumu",
+  "role": "Tercih Ettiği Rol",
+  "uni": "Üniversitesi",
+  "about": "Benim Hakkımda",
+  "basic": "Temel Bilgiler",
+  "projects": "Projeler",
+  "project": "PROJESİ",
+  "pizza": "Bilgisayar başında karnı acıkan yazılımcılara yiyecek getirmek için tasarlanmış bir web sitesi(SPA).",
+  "git": "GitHub'da İncele",
+  "app": "Uygulamaya Git",
+  "lets": "Sıradaki ürününüz üzerinde",
+  "letsbr": "birlikte çalışalım.",
+  "blog": "Kişisel Blog"
+}

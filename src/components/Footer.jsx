@@ -2,7 +2,7 @@ import { useContext } from "react";
 import "../assets/css/footer.css";
 import { DarkMode } from "../context/mycontext";
 const Footer = () => {
-  const { toggleDarkMode } = useContext(DarkMode);
+  const { toggleDarkMode, t } = useContext(DarkMode);
   return (
     <footer
       className={
@@ -20,7 +20,7 @@ const Footer = () => {
                 : "text-white footer-h3 font-medium text-right"
             }
           >
-            Let’s work together on <br /> your next product.
+            {t("lets")} <br /> {t("letsbr")}
           </h3>
         </div>
         <div className="flex flex-col">
@@ -42,7 +42,7 @@ const Footer = () => {
                 : "font-medium text-[#fff]"
             }
           >
-            Personal Blog
+            {t("blog")}
           </a>
           <a
             href="https://www.linkedin.com/in/kerem-karaman-2434731b4/"

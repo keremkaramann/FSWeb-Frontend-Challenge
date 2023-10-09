@@ -38,7 +38,7 @@ const SkillItem = ({ name, icon }) => {
 };
 
 const LanguageSection = () => {
-  const { toggleDarkMode } = useContext(DarkMode);
+  const { toggleDarkMode, t } = useContext(DarkMode);
   return (
     <section>
       <div
@@ -56,7 +56,7 @@ const LanguageSection = () => {
                 : "md:text-5xl xs:text-4xl font-medium text-white"
             }
           >
-            Skills
+            {t("skills")}
           </h2>
         </div>
         <div className="flex xs:gap-3 md:gap-8 justify-center text-center lang-cont xs:flex-wrap xs:p-2">

@@ -9,7 +9,7 @@ import { DarkMode } from "../context/mycontext";
 import { useContext } from "react";
 
 const ProjectSection = () => {
-  const { toggleDarkMode } = useContext(DarkMode);
+  const { toggleDarkMode, t } = useContext(DarkMode);
   return (
     <section
       className={
@@ -26,10 +26,10 @@ const ProjectSection = () => {
               : "text-white projects-h2 font-medium"
           }
         >
-          Projects
+          {t("projects")}
         </h2>
       </div>
-      <div className="mt-10 swiper-cont">
+      <div className="mt-10 swiper-cont ">
         <Swiper
           modules={[Navigation, Autoplay]}
           slidesPerView={2}
@@ -68,12 +68,9 @@ const ProjectSection = () => {
                     : "project-2 p-10 second-box-projects bg-slider-bg"
                 }
               >
-                <h4 className="font-bold mb-5">PIZZA PROJECT</h4>
+                <h4 className="font-bold mb-5">PIZZA {t("project")} </h4>
                 <div>
-                  <p className="p-width-custom mb-4 font-light">
-                    Bilgisayar başında karnı acıkan yazılımcılara yiyecek
-                    getirmek için tasarlanmış bir web sitesi(SPA).
-                  </p>
+                  <p className="p-width-custom mb-4 font-light">{t("pizza")}</p>
                 </div>
                 <div className="used-tools flex flex-wrap gap-2 mb-4">
                   <p
@@ -115,14 +112,14 @@ const ProjectSection = () => {
                 </div>
                 <div className="anchor-project flex gap-6 xs:gap-3 mb-16 justify-between">
                   <a
-                    href="https://github.com/keremkaramann"
+                    href="https://github.com/keremkaramann/fsweb-s7-challenge-pizza"
                     className="font-medium"
                     target="_blank"
                   >
-                    View on GitHub
+                    {t("git")}
                   </a>
                   <a href="" className="font-medium" target="_blank">
-                    Go to App -&gt;
+                    {t("app")} -&gt;
                   </a>
                 </div>
                 <div>
