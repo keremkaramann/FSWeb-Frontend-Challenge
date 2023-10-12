@@ -32,7 +32,7 @@ const Header = () => {
             <label className="switch">
               <input
                 type="checkbox"
-                checked={toggleDarkMode}
+                defaultChecked={toggleDarkMode}
                 onClick={handleNight}
               />
               <span className="slider"></span>
@@ -96,45 +96,49 @@ const Header = () => {
               <AiFillGithub />
             </a>
           </div>
-          {boolLang ? (
-            <div className="mt-6">
-              <p
-                className={
-                  toggleDarkMode
-                    ? "font-light text-black"
-                    : "font-light text-white"
-                }
-              >
-                Currently <span className="text-[#AF0C48]">Freelancing</span>{" "}
-                for{" "}
-                <span className="text-[#AF0C48]">
-                  UX, UI, &amp; Web Design{" "}
-                </span>
-                Project . Invite me to join your team -&gt;{" "}
-                <a className="text-[#AF0C48]" href="">
-                  keremkaraman91@gmail.com
-                </a>
-              </p>
-            </div>
-          ) : (
-            <div className="mt-6">
-              <p
-                className={
-                  toggleDarkMode
-                    ? "font-light text-black"
-                    : "font-light text-white"
-                }
-              >
-                Şu anda{" "}
-                <span className="text-[#AF0C48]">UX, UI &amp; Web Tasarım</span>{" "}
-                Projesi için serbest çalışıyorum. Beni takımınıza katılmaya
-                davet edin. -&gt;{" "}
-                <a className="text-[#AF0C48]" href="">
-                  keremkaraman91@gmail.com
-                </a>
-              </p>
-            </div>
-          )}
+          <Reveal>
+            {boolLang ? (
+              <div className="mt-6">
+                <p
+                  className={
+                    toggleDarkMode
+                      ? "font-light text-black"
+                      : "font-light text-white"
+                  }
+                >
+                  Currently <span className="text-[#AF0C48]">Freelancing</span>{" "}
+                  for{" "}
+                  <span className="text-[#AF0C48]">
+                    UX, UI, &amp; Web Design{" "}
+                  </span>
+                  Project . Invite me to join your team -&gt;{" "}
+                  <a className="text-[#AF0C48]" href="">
+                    keremkaraman91@gmail.com
+                  </a>
+                </p>
+              </div>
+            ) : (
+              <div className="mt-6">
+                <p
+                  className={
+                    toggleDarkMode
+                      ? "font-light text-black"
+                      : "font-light text-white"
+                  }
+                >
+                  Şu anda{" "}
+                  <span className="text-[#AF0C48]">
+                    UX, UI &amp; Web Tasarım
+                  </span>{" "}
+                  Projesi için serbest çalışıyorum. Beni takımınıza katılmaya
+                  davet edin. -&gt;{" "}
+                  <a className="text-[#AF0C48]" href="">
+                    keremkaraman91@gmail.com
+                  </a>
+                </p>
+              </div>
+            )}
+          </Reveal>
         </div>
         <div className="pink-shadow mt-12">
           <img src={sakura} alt="sakura" className="rounded-3xl" />
