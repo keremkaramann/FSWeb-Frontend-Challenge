@@ -8,6 +8,7 @@ import { AiFillGithub } from "react-icons/ai";
 import halfEclipse from "../assets/symbols/Ellipse 10.png";
 import sakura from "../assets/symbols/sakura.jpg";
 import rectangleRed from "../assets/symbols/Rectangle 18.png";
+import Reveal from "./Reveal";
 
 const Header = () => {
   const { toggleDarkMode, handleNight, t, handleLang, i18n } =
@@ -70,7 +71,7 @@ const Header = () => {
                 : "text-3xl mb-3 text-white"
             }
           >
-            {t("hi")} 👋
+            <Reveal>{t("hi")} 👋</Reveal>
           </h3>
           <h1
             className={
@@ -79,7 +80,7 @@ const Header = () => {
                 : "text-white md:text-header-xl lg:text-header-xxl cs-header-h1 font-medium"
             }
           >
-            {t("welcome")}
+            <Reveal>{t("welcome")}</Reveal>
           </h1>
           <div
             className={

@@ -9,6 +9,7 @@ import figma from "../assets/languageIcons/figma-logo 1.png";
 import griLogo from "../assets/symbols/Rectangle 22.png";
 import { useContext } from "react";
 import { DarkMode } from "../context/mycontext";
+import Reveal from "./Reveal";
 
 const skills = [
   { name: "JAVASCRIPT", icon: js },
@@ -59,11 +60,13 @@ const LanguageSection = () => {
             {t("skills")}
           </h2>
         </div>
-        <div className="flex xs:gap-3 md:gap-8 justify-center text-center lang-cont xs:flex-wrap xs:p-2">
-          {skills.map((skill, index) => (
-            <SkillItem key={index} {...skill} />
-          ))}
-        </div>
+        <Reveal>
+          <div className="flex xs:gap-3 md:gap-8 justify-center text-center lang-cont xs:flex-wrap xs:p-2">
+            {skills.map((skill, index) => (
+              <SkillItem key={index} {...skill} />
+            ))}
+          </div>
+        </Reveal>
         <div className="mt-10 gri-logo xs:pb-16  md:pb-16">
           <img src={griLogo} alt="" />
         </div>
