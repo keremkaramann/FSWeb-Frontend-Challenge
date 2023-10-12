@@ -118,7 +118,11 @@ const ProjectSection = () => {
                   >
                     {t("git")}
                   </a>
-                  <a href="" className="font-medium" target="_blank">
+                  <a
+                    href="https://pizza-project-react.vercel.app/"
+                    className="font-medium"
+                    target="_blank"
+                  >
                     {t("app")} -&gt;
                   </a>
                 </div>
@@ -133,20 +137,17 @@ const ProjectSection = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="flex justify-center p-5 xs:p-20">
+            <div className="flex justify-center p-6 xs:p-20">
               <div
                 className={
                   toggleDarkMode
-                    ? "project-2 p-10 second-box-projects"
-                    : "project-2 p-10 second-box-projects bg-slider-bg2"
+                    ? "project-2 p-10 second-box-projects bg-baby-blue"
+                    : "project-2 p-10 second-box-projects bg-slider-bg"
                 }
               >
-                <h4 className="font-bold mb-5">PIZZA PROJECT</h4>
+                <h4 className="font-bold mb-5">PIZZA {t("project")} </h4>
                 <div>
-                  <p className="p-width-custom mb-4 font-light">
-                    Bilgisayar başında karnı acıkan yazılımcılara yiyecek
-                    getirmek için tasarlanmış bir web sitesi(SPA).
-                  </p>
+                  <p className="p-width-custom mb-4 font-light">{t("pizza")}</p>
                 </div>
                 <div className="used-tools flex flex-wrap gap-2 mb-4">
                   <p
@@ -187,11 +188,19 @@ const ProjectSection = () => {
                   </p>
                 </div>
                 <div className="anchor-project flex gap-6 xs:gap-3 mb-16 justify-between">
-                  <a href="" className="font-medium" target="_blank">
-                    View on GitHub
+                  <a
+                    href="https://github.com/keremkaramann/fsweb-s7-challenge-pizza"
+                    className="font-medium"
+                    target="_blank"
+                  >
+                    {t("git")}
                   </a>
-                  <a href="" className="font-medium" target="_blank">
-                    Go to App -&gt;
+                  <a
+                    href="https://pizza-project-react.vercel.app/"
+                    className="font-medium"
+                    target="_blank"
+                  >
+                    {t("app")} -&gt;
                   </a>
                 </div>
                 <div>
@@ -205,7 +214,7 @@ const ProjectSection = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="flex justify-center p-5 xs:p-20">
+            <div className="flex justify-center p-6 xs:p-20">
               <div
                 className={
                   toggleDarkMode
@@ -213,12 +222,9 @@ const ProjectSection = () => {
                     : "project-2 p-10 second-box-projects bg-slider-bg"
                 }
               >
-                <h4 className="font-bold mb-5">PIZZA PROJECT</h4>
+                <h4 className="font-bold mb-5">PIZZA {t("project")} </h4>
                 <div>
-                  <p className="p-width-custom mb-4 font-light">
-                    Bilgisayar başında karnı acıkan yazılımcılara yiyecek
-                    getirmek için tasarlanmış bir web sitesi(SPA).
-                  </p>
+                  <p className="p-width-custom mb-4 font-light">{t("pizza")}</p>
                 </div>
                 <div className="used-tools flex flex-wrap gap-2 mb-4">
                   <p
@@ -259,11 +265,19 @@ const ProjectSection = () => {
                   </p>
                 </div>
                 <div className="anchor-project flex gap-6 xs:gap-3 mb-16 justify-between">
-                  <a href="" className="font-medium" target="_blank">
-                    View on GitHub
+                  <a
+                    href="https://github.com/keremkaramann/fsweb-s7-challenge-pizza"
+                    className="font-medium"
+                    target="_blank"
+                  >
+                    {t("git")}
                   </a>
-                  <a href="" className="font-medium" target="_blank">
-                    Go to App -&gt;
+                  <a
+                    href="https://pizza-project-react.vercel.app/"
+                    className="font-medium"
+                    target="_blank"
+                  >
+                    {t("app")} -&gt;
                   </a>
                 </div>
                 <div>
