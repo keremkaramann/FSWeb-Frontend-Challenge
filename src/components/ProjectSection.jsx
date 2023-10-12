@@ -291,38 +291,6 @@ const ProjectSection = () => {
             </div>
           </SwiperSlide>
         </Swiper>
-        {/*  <div className="flex justify-center">
-          <div className="project-2 p-10">
-            <h4 className="font-bold mb-5">PIZZA PROJECT</h4>
-            <div>
-              <p className="p-width-custom mb-4 font-light">
-                Bilgisayar başında karnı acıkan yazılımcılara yiyecek getirmek
-                için tasarlanmış bir web sitesi(SPA).
-              </p>
-            </div>
-            <div className="used-tools flex flex-wrap gap-2 mb-4">
-              <p className="custom-tools">react</p>
-              <p className="custom-tools">router</p>
-              <p className="custom-tools">tailwind</p>
-              <p className="custom-tools">axios</p>
-            </div>
-            <div className="anchor-project flex gap-6 mb-16 justify-between">
-              <a href="" className="font-medium">
-                View on GitHub
-              </a>
-              <a href="" className="font-medium">
-                Go to App -&gt;
-              </a>
-            </div>
-            <div>
-              <img
-                src={comp1}
-                alt="computer-picture"
-                className="computer-picture"
-              />
-            </div>
-          </div>
-        </div> */}
       </div>
     </section>
   );
