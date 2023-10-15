@@ -60,7 +60,7 @@ const ProjectSection = () => {
           className="mySwiper"
         >
           <SwiperSlide>
-            <div className="flex justify-center p-6 xs:p-20">
+            <div className="flex justify-center p-6 xs:p-[4rem]">
               <div
                 className={
                   toggleDarkMode
@@ -137,7 +137,7 @@ const ProjectSection = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="flex justify-center p-6 xs:p-20">
+            <div className="flex justify-center p-6 xs:p-[4rem]">
               <div
                 className={
                   toggleDarkMode
@@ -216,7 +216,7 @@ const ProjectSection = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="flex justify-center p-6 xs:p-20">
+            <div className="flex justify-center p-6 xs:p-[4rem]">
               <div
                 className={
                   toggleDarkMode
