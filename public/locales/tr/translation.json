@@ -12,10 +12,14 @@
   "basic": "Temel Bilgiler",
   "projects": "Projeler",
   "project": "PROJESİ",
-  "pizza": "Bilgisayar başında karnı acıkan yazılımcılara yiyecek getirmek için tasarlanmış bir web sitesi(SPA).",
+  "pizza": "Bilgisayar başında karnı acıkan yazılımcılara yiyecek getirmek için tasarlanmış bir web sitesi(SPA). Router ve Yup kullanıldı.",
   "git": "GitHub'da İncele",
   "app": "Uygulamaya Git",
   "lets": "Sıradaki ürününüz üzerinde",
   "letsbr": "birlikte çalışalım.",
-  "blog": "Kişisel Blog"
+  "blog": "Kişisel Blog",
+  "movies": "FİLMLER",
+  "moviesDesc": "React ve Redux kullanılarak, kullanıcıların favori filmlerini ekleyebildiği kapsamlı bir film uygulaması oluşturuldu.",
+  "jokes": "RASTGELE ŞAKA",
+  "jokesDesc": "Redux Thunk kullanılarak API'den veri çeken rastgele şaka üretici bir uygulamayı hayata geçirdi."
 }

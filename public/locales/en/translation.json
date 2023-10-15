@@ -12,10 +12,14 @@
   "basic": "Basic Information",
   "projects": "Projects",
   "project": "PROJECT",
-  "pizza": "A website (SPA) designed to bring food to hungry programmers at the computer.",
+  "pizza": "A website (SPA) designed to bring food to hungry programmers at the computer.Router and Yup used for this app.",
   "git": "View on GitHub",
   "app": "Go to App",
   "lets": "Let’s work together on",
   "letsbr": "your next product.",
-  "blog": "Personal Blog"
+  "blog": "Personal Blog",
+  "movies": "MOVIES",
+  "moviesDesc": "Developed a comprehensive movie list with react,redux that users can add favorites movies.",
+  "jokes": "RANDOM JOKES",
+  "jokesDesc": "Implemented a random jokes generator that fetches data from an external API with Redux Thunk."
 }

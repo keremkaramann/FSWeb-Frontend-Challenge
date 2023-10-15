@@ -145,9 +145,11 @@ const ProjectSection = () => {
                     : "project-2 p-10 second-box-projects bg-slider-bg"
                 }
               >
-                <h4 className="font-bold mb-5">PIZZA {t("project")} </h4>
+                <h4 className="font-bold mb-5">REDUX {t("movies")} </h4>
                 <div>
-                  <p className="p-width-custom mb-4 font-light">{t("pizza")}</p>
+                  <p className="p-width-custom mb-4 font-light">
+                    {t("moviesDesc")}
+                  </p>
                 </div>
                 <div className="used-tools flex flex-wrap gap-2 mb-4">
                   <p
@@ -166,7 +168,7 @@ const ProjectSection = () => {
                         : "bg-box-darkMode custom-tools"
                     }
                   >
-                    router
+                    redux
                   </p>
                   <p
                     className={
@@ -189,14 +191,14 @@ const ProjectSection = () => {
                 </div>
                 <div className="anchor-project flex gap-6 xs:gap-3 mb-16 justify-between">
                   <a
-                    href="https://github.com/keremkaramann/fsweb-s7-challenge-pizza"
+                    href="https://github.com/keremkaramann/fsweb-s10g2-redux-filmler"
                     className="font-medium"
                     target="_blank"
                   >
                     {t("git")}
                   </a>
                   <a
-                    href="https://pizza-project-react.vercel.app/"
+                    href="https://fsweb-s10g2-redux-filmler-omega.vercel.app/movies"
                     className="font-medium"
                     target="_blank"
                   >
@@ -222,9 +224,11 @@ const ProjectSection = () => {
                     : "project-2 p-10 second-box-projects bg-slider-bg"
                 }
               >
-                <h4 className="font-bold mb-5">PIZZA {t("project")} </h4>
+                <h4 className="font-bold mb-5">{t("jokes")} </h4>
                 <div>
-                  <p className="p-width-custom mb-4 font-light">{t("pizza")}</p>
+                  <p className="p-width-custom mb-4 font-light">
+                    {t("jokesDesc")}
+                  </p>
                 </div>
                 <div className="used-tools flex flex-wrap gap-2 mb-4">
                   <p
@@ -261,19 +265,19 @@ const ProjectSection = () => {
                         : "bg-box-darkMode custom-tools"
                     }
                   >
-                    axios
+                    redux thunk
                   </p>
                 </div>
                 <div className="anchor-project flex gap-6 xs:gap-3 mb-16 justify-between">
                   <a
-                    href="https://github.com/keremkaramann/fsweb-s7-challenge-pizza"
+                    href="https://github.com/keremkaramann/fsweb-s10g4-thunk-and-apis"
                     className="font-medium"
                     target="_blank"
                   >
                     {t("git")}
                   </a>
                   <a
-                    href="https://pizza-project-react.vercel.app/"
+                    href="https://fsweb-s10g4-thunk-and-apis-xi.vercel.app/"
                     className="font-medium"
                     target="_blank"
                   >
