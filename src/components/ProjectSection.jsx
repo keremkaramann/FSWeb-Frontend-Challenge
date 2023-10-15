@@ -33,10 +33,10 @@ const ProjectSection = () => {
         <Swiper
           modules={[Navigation, Autoplay]}
           slidesPerView={2}
-          spaceBetween={5}
+          spaceBetween={40}
           navigation={true}
           autoplay={{
-            delay: 2500,
+            delay: 3000,
             disableOnInteraction: false,
           }}
           breakpoints={{
