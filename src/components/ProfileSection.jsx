@@ -57,14 +57,8 @@ const ProfileSection = () => {
                   : "text-white leading-7 box-2-p"
               }
             >
-              <p className="mb-8 font-light ">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam
-                aut, odit laborum aliquam voluptatum nisi mollitia.
-              </p>
-              <p className="font-light ">
-                Mnima accusamus ratione soluta aperiam sit voluptate? Dicta quod
-                deserunt quam temporibus cumque magnam!
-              </p>
+              <p className="mb-8 font-light ">{t("aboutDesc1")}</p>
+              <p className="font-light ">{t("aboutDesc2")}</p>
             </div>
           </div>
         </div>

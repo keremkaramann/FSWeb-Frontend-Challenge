@@ -9,6 +9,8 @@
   "role": "Tercih Ettiği Rol",
   "uni": "Üniversitesi",
   "about": "Benim Hakkımda",
+  "aboutDesc1": "Ben Kerem, Atılım Üniversitesi'nden mezun oldum. Yazılım mühendisliğine geçişim yoğun kurs çalışmaları, proje geliştirme ve iş deneyimi içeriyor.",
+  "aboutDesc2": "HTML, CSS, JavaScript, ReactJs, Java, Spring Boot olmak üzere web geliştirme teknolojilerine güçlü bir şekilde hakimim. Ayrıca test(Cypress ve Jest), ilgili React kütüphaneleri ve veritabanı sistemleri (SQL) konusunda da yetkinim.",
   "basic": "Temel Bilgiler",
   "projects": "Projeler",
   "project": "PROJESİ",
