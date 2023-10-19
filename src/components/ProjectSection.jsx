@@ -29,7 +29,7 @@ const ProjectSection = () => {
           {t("projects")}
         </h2>
       </div>
-      <div className="xs:mt-0 md:mt-10 swiper-cont ">
+      <div className="xs:mt-0 md:mt-10 swiper-cont middleC:p-5 xs:p-0">
         <Swiper
           modules={[Navigation, Autoplay]}
           slidesPerView={2}
