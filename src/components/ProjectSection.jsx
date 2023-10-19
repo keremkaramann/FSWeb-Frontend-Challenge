@@ -141,8 +141,8 @@ const ProjectSection = () => {
               <div
                 className={
                   toggleDarkMode
-                    ? "project-2 p-10 second-box-projects bg-baby-blue"
-                    : "project-2 p-10 second-box-projects bg-slider-bg"
+                    ? "project-2 p-10 second-box-projects bg-Lightgreen"
+                    : "project-2 p-10 second-box-projects bg-slider-bg2"
                 }
               >
                 <h4 className="font-bold mb-5">REDUX {t("movies")} </h4>

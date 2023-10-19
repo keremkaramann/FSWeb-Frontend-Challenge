@@ -13,6 +13,7 @@ export default {
         "slider-bg": "#2D3235",
         "slider-bg2": "#495351",
         "baby-blue": "#DDEEFE",
+        Lightgreen: "#D9F6F1",
       },
       fontSize: {
         "header-xxl": "2.8rem",
