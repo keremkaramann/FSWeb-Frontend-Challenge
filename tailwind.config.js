@@ -20,6 +20,7 @@ export default {
       },
       screens: {
         xs: "300px",
+        middleC: "768px",
       },
     },
   },

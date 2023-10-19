@@ -13,7 +13,7 @@ const Footer = () => {
       }
     >
       <Reveal>
-        <div className="mt-60 xs:mt-20 flex gap-10 mb-20 flex-wrap xs:justify-center">
+        <div className="mt-60 xs:mt-20 flex gap-10 mb-20 flex-wrap xs:justify-center xs:flex-col middleC:flex-row">
           <div>
             <h3
               className={
@@ -25,7 +25,7 @@ const Footer = () => {
               {t("lets")} <br /> {t("letsbr")}
             </h3>
           </div>
-          <div className="flex flex-col">
+          <div className="flex flex-col xs:items-center middleC:items-start">
             <a
               href="https://github.com/keremkaramann"
               className={

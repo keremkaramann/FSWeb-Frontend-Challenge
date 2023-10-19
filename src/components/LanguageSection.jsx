@@ -24,7 +24,7 @@ const SkillItem = ({ name, icon }) => {
   const { toggleDarkMode } = useContext(DarkMode);
   return (
     <div>
-      <img src={icon} alt={name} className="mb-4" />
+      <img src={icon} alt={name} className="mb-4 rounded-lg" />
       <p
         className={
           toggleDarkMode
@@ -61,7 +61,7 @@ const LanguageSection = () => {
           </h2>
         </div>
         <Reveal>
-          <div className="flex xs:gap-3 md:gap-8 justify-center text-center lang-cont xs:flex-wrap xs:p-2">
+          <div className="flex xs:gap-6 md:gap-8 justify-center text-center lang-cont xs:flex-wrap xs:p-2">
             {skills.map((skill, index) => (
               <SkillItem key={index} {...skill} />
             ))}
