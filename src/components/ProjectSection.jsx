@@ -32,8 +32,6 @@ const ProjectSection = () => {
       <div className="xs:mt-0 md:mt-10 swiper-cont middleC:p-5 xs:p-0">
         <Swiper
           modules={[Navigation, Autoplay]}
-          slidesPerView={2}
-          spaceBetween={40}
           navigation={true}
           autoplay={{
             delay: 3000,
@@ -42,19 +40,19 @@ const ProjectSection = () => {
           breakpoints={{
             1100: {
               slidesPerView: 2,
-              spaceBetween: 18,
+              spaceBetween: 1,
             },
             720: {
               slidesPerView: 1,
-              spaceBetween: 6,
+              spaceBetween: 1,
             },
             540: {
               slidesPerView: 1,
-              spaceBetween: 4,
+              spaceBetween: 1,
             },
             300: {
               slidesPerView: 1,
-              spaceBetween: 2,
+              spaceBetween: 1,
             },
           }}
           className="mySwiper"
