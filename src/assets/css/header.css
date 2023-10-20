@@ -105,7 +105,7 @@ span,
 }
 @media (max-width: 767px) {
   html {
-    font-size: 65%;
+    font-size: 67%;
   }
   .switch {
     font-size: 14px;
@@ -126,7 +126,7 @@ span,
   }
   .cs-header-h1:before {
     left: 0;
-    top: 15%;
+    top: 13% !important;
   }
   .rectangle-red {
     width: 10%;
@@ -141,6 +141,6 @@ span,
 
 @media (max-width: 640px) {
   .cs-header-h1 {
-    font-size: 1.3rem;
+    font-size: 1.7rem;
   }
 }

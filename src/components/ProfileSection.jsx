@@ -22,12 +22,12 @@ const ProfileSection = () => {
             {t("profile")}
           </h2>
         </div>
-        <div className="flex justify-center gap-10 pb-16 flex-wrap">
+        <div className="flex justify-center gap-10 pb-20 xs:flex-wrap md:flex-wrap lg:flex-wrap xl:flex-nowrap">
           <div
             className={
               toggleDarkMode
-                ? "profile-box p-8 leading-10 pr-32 xs:p-6 xs:pr-12 xs:ml-2 bg-white"
-                : "profile-box p-8 leading-10 pr-32 xs:p-6 xs:pr-12 xs:ml-2 bg-box-darkMode"
+                ? "xs:h-auto middleC:h-[300px] profile-box p-8 leading-10 pr-32 xs:p-6 xs:pr-12 xs:ml-2 bg-white"
+                : "xs:h-auto middleC:h-[300px] profile-box p-8 leading-10 pr-32 xs:p-6 xs:pr-12 xs:ml-2 bg-box-darkMode"
             }
           >
             <h4 className="text-pink-text font-normal mb-5">{t("basic")} </h4>
@@ -46,7 +46,7 @@ const ProfileSection = () => {
               </div>
             </div>
           </div>
-          <div className="p-8 w-2/5 profile2-box-right">
+          <div className="p-2 second-box-cs-2-black profile2-box-right">
             <div className={toggleDarkMode ? "text-black" : "text-white"}>
               <h4 className="h4-second-box mb-4">{t("about")} </h4>
             </div>

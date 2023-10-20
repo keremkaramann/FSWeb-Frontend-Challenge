@@ -42,8 +42,8 @@ const Header = () => {
             <p
               className={
                 toggleDarkMode
-                  ? "text-custom-grey-text text-sm border-r-2 border-custom-grey-text pr-2"
-                  : "text-white text-sm border-r-2 border-custom-grey-text pr-2"
+                  ? "text-custom-grey-text border-r-2 border-custom-grey-text pr-2"
+                  : "text-white  border-r-2 border-custom-grey-text pr-2"
               }
             >
               {toggleDarkMode ? "DARK" : "LIGHT"} MODE
@@ -51,19 +51,19 @@ const Header = () => {
           </div>
           <div className="flex">
             <p
-              className="text-pink-text text-sm cursor-pointer span-cs-headers"
+              className="text-pink-text  cursor-pointer span-cs-headers"
               onClick={() => handleLang(boolLang ? "tr" : "en")}
             >
               {boolLang ? "TÜRKÇE" : "ENGLISH"}
             </p>
             {boolLang ? (
-              <span className="text-custom-grey-text text-sm">'YE GEÇ</span>
+              <span className="text-custom-grey-text">'YE GEÇ</span>
             ) : null}
           </div>
         </div>
       </div>
       <div className="flex xs:mt-5 sm:mt-10 md:mt-16 xs:mb-4 two-sections justify-around header-container">
-        <div className="w-2/4">
+        <div className="xs:w-[56%] middleC:w-2/4">
           <h3
             className={
               toggleDarkMode

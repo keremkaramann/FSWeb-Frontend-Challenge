@@ -20,7 +20,9 @@
   font-family: "Inter", sans-serif;
   font-size: 1.5rem;
 }
-
+.second-box-cs-2-black {
+  width: 40%;
+}
 .profile-box p {
   font-size: 1.1rem;
   font-family: "Inter", sans-serif;
@@ -52,5 +54,13 @@
   }
   .profile2-box-right {
     width: 80% !important;
+  }
+  .second-box-cs-2-black {
+    width: 80%;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .second-box-cs-2-black {
+    width: 55% !important;
   }
 }
