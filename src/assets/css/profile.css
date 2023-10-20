@@ -55,9 +55,6 @@
   .profile2-box-right {
     width: 80% !important;
   }
-  .second-box-cs-2-black {
-    width: 80%;
-  }
 }
 @media (min-width: 768px) and (max-width: 1023px) {
   .second-box-cs-2-black {

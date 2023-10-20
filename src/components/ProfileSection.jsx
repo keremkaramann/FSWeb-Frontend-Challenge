@@ -57,8 +57,8 @@ const ProfileSection = () => {
                   : "text-white leading-7 box-2-p"
               }
             >
-              <p className="mb-8 font-light ">{t("aboutDesc1")}</p>
-              <p className="font-light ">{t("aboutDesc2")}</p>
+              <p className="mb-8 font-light">{t("aboutDesc1")}</p>
+              <p className="font-light">{t("aboutDesc2")}</p>
             </div>
           </div>
         </div>

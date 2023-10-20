@@ -61,7 +61,7 @@ const LanguageSection = () => {
           </h2>
         </div>
         <Reveal>
-          <div className="flex xs:gap-6 md:gap-8 justify-center text-center lang-cont xs:flex-wrap xs:p-5">
+          <div className="xs:w-1/2 xs:mx-auto middleC:mx-0 middleC:w-full flex xs:gap-4 md:gap-8 justify-center text-center lang-cont xs:flex-wrap xs:p-5">
             {skills.map((skill, index) => (
               <SkillItem key={index} {...skill} />
             ))}
