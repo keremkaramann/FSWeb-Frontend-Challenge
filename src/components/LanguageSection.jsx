@@ -8,7 +8,7 @@ import vscode from "../assets/languageIcons/vscode.png";
 import figma from "../assets/languageIcons/figma-logo 1.png";
 import griLogo from "../assets/symbols/Rectangle 22.png";
 import { useContext } from "react";
-import { DarkMode } from "../context/mycontext";
+import { DarkMode } from "../context/myContext";
 import Reveal from "./Reveal";
 import { motion } from "framer-motion";
 
@@ -24,7 +24,11 @@ const skills = [
 const SkillItem = ({ name, icon }) => {
   const { toggleDarkMode } = useContext(DarkMode);
   return (
-    <motion.div whileHover={{ scale: 1.15 }}>
+    <motion.div
+      whileHover={{ scale: 1.15 }}
+      whileTap={{ scale: 0.95, rotate: "5deg" }}
+      className="cursor-pointer"
+    >
       <img src={icon} alt={name} className="mb-4 rounded-lg" />
       <p
         className={
