@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
-import { DarkProvider } from "./context/mycontext.jsx";
+import { DarkProvider } from "./context/myContext";
 import "./index.css";
 import "./i18n";
 import "react-toastify/dist/ReactToastify.css";
