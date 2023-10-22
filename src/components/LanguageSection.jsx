@@ -8,7 +8,7 @@ import vscode from "../assets/languageIcons/vscode.png";
 import figma from "../assets/languageIcons/figma-logo 1.png";
 import griLogo from "../assets/symbols/Rectangle 22.png";
 import { useContext } from "react";
-import { DarkMode } from "../context/myContext";
+import { DarkMode } from "../context/mycontext";
 import Reveal from "./Reveal";
 import { motion } from "framer-motion";
 

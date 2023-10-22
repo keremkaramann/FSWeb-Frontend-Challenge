@@ -1,6 +1,6 @@
 import "../assets/css/header.css";
 import { useContext, useState } from "react";
-import { DarkMode } from "../context/myContext";
+import { DarkMode } from "../context/mycontext";
 
 //icons and pictures
 import { ImLinkedin2 } from "react-icons/im";

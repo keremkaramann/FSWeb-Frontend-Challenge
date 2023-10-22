@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import { Navigation, Autoplay } from "swiper/modules";
-import { DarkMode } from "../context/myContext";
+import { DarkMode } from "../context/mycontext";
 import { useContext } from "react";
 
 const ProjectSection = () => {

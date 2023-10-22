@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { DarkMode } from "../context/myContext";
+import { DarkMode } from "../context/mycontext";
 import "../assets/css/profile.css";
 import redCir from "../assets/symbols/Ellipse 12.png";
 import Reveal from "./Reveal";

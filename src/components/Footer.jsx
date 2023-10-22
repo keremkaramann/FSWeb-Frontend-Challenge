@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import "../assets/css/footer.css";
-import { DarkMode } from "../context/myContext";
+import { DarkMode } from "../context/mycontext";
 import Reveal from "./Reveal";
 const Footer = () => {
   const { toggleDarkMode, t } = useContext(DarkMode);
