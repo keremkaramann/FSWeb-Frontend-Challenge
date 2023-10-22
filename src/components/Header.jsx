@@ -1,5 +1,5 @@
 import "../assets/css/header.css";
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import { DarkMode } from "../context/mycontext";
 
 //icons and pictures

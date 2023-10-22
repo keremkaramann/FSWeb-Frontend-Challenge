@@ -10,6 +10,7 @@ import griLogo from "../assets/symbols/Rectangle 22.png";
 import { useContext } from "react";
 import { DarkMode } from "../context/mycontext";
 import Reveal from "./Reveal";
+import { motion } from "framer-motion";
 
 const skills = [
   { name: "JAVASCRIPT", icon: js },
@@ -23,7 +24,7 @@ const skills = [
 const SkillItem = ({ name, icon }) => {
   const { toggleDarkMode } = useContext(DarkMode);
   return (
-    <div>
+    <motion.div whileHover={{ scale: 1.15 }}>
       <img src={icon} alt={name} className="mb-4 rounded-lg" />
       <p
         className={
@@ -34,7 +35,7 @@ const SkillItem = ({ name, icon }) => {
       >
         {name}
       </p>
-    </div>
+    </motion.div>
   );
 };
 
@@ -61,7 +62,7 @@ const LanguageSection = () => {
           </h2>
         </div>
         <Reveal>
-          <div className="xs:w-1/2 xs:mx-auto middleC:mx-0 middleC:w-full flex xs:gap-4 md:gap-8 justify-center text-center lang-cont xs:flex-wrap xs:p-5">
+          <div className="xs:w-1/2 xs:mx-auto middleC:mx-0 middleC:w-full flex xs:gap-6 md:gap-8 justify-center text-center lang-cont xs:flex-wrap xs:p-5">
             {skills.map((skill, index) => (
               <SkillItem key={index} {...skill} />
             ))}
