@@ -2,6 +2,7 @@ import { createContext, useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 
 export const DarkMode = createContext();
+
 export const DarkProvider = ({ children }) => {
   const prefersDarkMode = window.matchMedia(
     "(prefers-color-scheme: light)"

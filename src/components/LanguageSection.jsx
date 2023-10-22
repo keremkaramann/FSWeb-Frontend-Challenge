@@ -24,22 +24,24 @@ const skills = [
 const SkillItem = ({ name, icon }) => {
   const { toggleDarkMode } = useContext(DarkMode);
   return (
-    <motion.div
-      whileHover={{ scale: 1.15 }}
-      whileTap={{ scale: 0.95, rotate: "5deg" }}
-      className="cursor-pointer"
-    >
-      <img src={icon} alt={name} className="mb-4 rounded-lg" />
-      <p
-        className={
-          toggleDarkMode
-            ? "text-custom-grey-text text-2xl font-medium"
-            : "text-white text-2xl font-medium"
-        }
+    <div>
+      <motion.div
+        whileHover={{ scale: 1.15 }}
+        whileTap={{ scale: 0.95, rotate: "5deg" }}
+        className="cursor-pointer"
       >
-        {name}
-      </p>
-    </motion.div>
+        <img src={icon} alt={name} className="mb-4 rounded-lg" />
+        <p
+          className={
+            toggleDarkMode
+              ? "text-custom-grey-text text-2xl font-medium"
+              : "text-white text-2xl font-medium"
+          }
+        >
+          {name}
+        </p>
+      </motion.div>
+    </div>
   );
 };
 
