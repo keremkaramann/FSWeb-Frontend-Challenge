@@ -23,5 +23,6 @@
   "movies": "MOVIES",
   "moviesDesc": "Developed a comprehensive movie list with react,redux that users can add favorites movies.",
   "jokes": "RANDOM JOKES",
-  "jokesDesc": "Implemented a random jokes generator that fetches data from an external API with Redux Thunk."
+  "jokesDesc": "Implemented a random jokes generator that fetches data from an external API with Redux Thunk.",
+  "tab": "Don't leave me here :("
 }

@@ -23,5 +23,6 @@
   "movies": "FİLMLER",
   "moviesDesc": "React ve Redux kullanılarak, kullanıcıların favori filmlerini ekleyebildiği kapsamlı bir film uygulaması oluşturuldu.",
   "jokes": "RASTGELE ŞAKA",
-  "jokesDesc": "Redux Thunk kullanılarak API'den veri çeken rastgele şaka üretici bir uygulamayı hayata geçirdi."
+  "jokesDesc": "Redux Thunk kullanılarak API'den veri çeken rastgele şaka üretici bir uygulamayı hayata geçirdi.",
+  "tab": "Beni unuttun :("
 }

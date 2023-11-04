@@ -2,6 +2,7 @@ import { useContext } from "react";
 import "../assets/css/footer.css";
 import { DarkMode } from "../context/mycontext";
 import Reveal from "./Reveal";
+
 const Footer = () => {
   const { toggleDarkMode, t } = useContext(DarkMode);
   return (
@@ -9,7 +10,7 @@ const Footer = () => {
       className={
         toggleDarkMode
           ? "flex justify-center"
-          : "flex justify-center bg-lightest-bg"
+          : "flex justify-center  bg-lightest-bg"
       }
     >
       <Reveal>

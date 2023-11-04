@@ -15,6 +15,13 @@ const Header = () => {
     useContext(DarkMode);
   const boolLang = i18n.language === "en";
 
+  window.addEventListener("blur", () => {
+    document.title = `${t("tab")}`;
+  });
+  window.addEventListener("focus", () => {
+    document.title = "Kerem Karaman";
+  });
+
   return (
     <header
       className={
