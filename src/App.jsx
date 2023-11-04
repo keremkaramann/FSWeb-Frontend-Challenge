@@ -5,7 +5,6 @@ import ProfileSection from "./components/ProfileSection";
 import ProjectSection from "./components/ProjectSection";
 import ScrollToTop from "./components/ScrollToTop";
 import Footer from "./components/Footer";
-
 function App() {
   return (
     <div>
