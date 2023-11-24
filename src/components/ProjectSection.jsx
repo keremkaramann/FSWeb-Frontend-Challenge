@@ -128,7 +128,7 @@ const ProjectSection = () => {
                     {t("git")}
                   </a>
                   <a
-                    href="https://e-commerce-mock.vercel.app/"
+                    href="https://kerem-ecommerce.vercel.app/"
                     className="font-medium"
                     target="_blank"
                   >
